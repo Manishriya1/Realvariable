@@ -110,3 +110,116 @@ Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
 
 
 
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git branch
+* master
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git branch M
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git branch
+  M
+* master
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git branch S
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git branch
+  M
+  S
+* master
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git checkout M
+Switched to branch 'M'
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (M)
+$ git checkout main
+error: pathspec 'main' did not match any file(s) known to git
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (M)
+$ git checkout master
+Switched to branch 'master'
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git bragit: 'brammch' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git branch -D S
+Deleted branch S (was b671801).
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git branch
+  M
+* master
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git branch -D M
+Deleted branch M (was b671801).
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git checkout -b M
+Switched to a new branch 'M'
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (M)
+$ git checkout -b master
+fatal: a branch named 'master' already exists
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (M)
+$ git checkout master
+Switched to branch 'master'
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git branch
+  M
+* master
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git branch -D M
+Deleted branch M (was b671801).
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git branch
+* master
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ ls
+mani.txt  text.txt
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git branch -M main
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (main)
+$ git remote add origin https://github.com/Manishriya1/Realvariable.git
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (main)
+$ git push -u origin main
+
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (10/10), 1.47 KiB | 24.00 KiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Manishriya1/Realvariable.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (main)
+$
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (main)
+$
+
+

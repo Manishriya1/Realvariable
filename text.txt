@@ -1,6 +1,5 @@
 iam mani shriya
 
-
 Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo
 $ git init
 Initialized empty Git repository in C:/Users/Mani Shriya/Desktop/my repo/.git/
@@ -80,5 +79,34 @@ $ git commit -m "1st task done"
 
 Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
 $ ^C
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   text.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git add text.txt
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   text.txt
+
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git commit -m "2nd task done"
+[master 77094f1] 2nd task done
+ 1 file changed, 83 insertions(+)
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+
 
 

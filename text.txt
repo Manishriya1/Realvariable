@@ -1,1 +1,84 @@
 iam mani shriya
+
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo
+$ git init
+Initialized empty Git repository in C:/Users/Mani Shriya/Desktop/my repo/.git/
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ ls -a
+./  ../  .git/  text.txt
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        text.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git add text.txt
+
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   text.txt
+
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git commit -m "1st task done"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Mani Shriya@LAPTOP-PNMSDI65.(none)')
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git config --global user.email "mani.shriya2@gmail.com"
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git config --global user.name "Mani Shriya"
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   text.txt
+
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ git commit -m "1st task done"
+[master (root-commit) bd4f38c] 1st task done
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text.txt
+
+Mani Shriya@LAPTOP-PNMSDI65 MINGW64 ~/Desktop/my repo (master)
+$ ^C
+
+
